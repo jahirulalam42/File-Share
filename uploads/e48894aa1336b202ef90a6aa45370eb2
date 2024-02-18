@@ -1,0 +1,14 @@
+Field,Field Type,Connection,Comment
+Government approved treasury bond,Text,,Refers to investments made in government-approved treasury bonds.
+Donation to a national level institution set up in memory of Father of the Nation,Text,,Refers to donations made to national-level institutions set up in memory of the Father of the Nation.
+AXES,Text,,Typo or placeholder, assumed to refer to taxes.
+TAXES,Text,,Typo or placeholder, assumed to refer to taxes.
+List of Investment Fund for Eligible Amount for Rebate,Text,,Refers to the list of investment funds eligible for a rebate.
+Donation or contribution to the Charitable Fund established by or under the Zakat Fund Ordinance, 1982,Text,,Refers to donations or contributions made to the Charitable Fund established under the Zakat Fund Ordinance, 1982.
+Donation by an assessee to a charitable hospital,Text,,Refers to donations made by an assessee to a charitable hospital.
+Donation by an assessee to a charitable organization established for handicap people,Text,,Refers to donations made by an assessee to a charitable organization established for handicapped people.
+Rebate Eligible Amount,Text,,Specifies the eligible amount for rebate calculations.
+Tax Calculation,Text,,Provides instructions for tax calculation.
+Dhaka & Chattogram City Corporation,Text,,Specifies the tax amount for Dhaka & Chattogram City Corporation.
+Other City Corporation,Text,,Specifies the minimum tax amount for other city corporations.
+Other Places except City Corporation,Text,,Specifies the minimum tax amount for places other than city corporations.

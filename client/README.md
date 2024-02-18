@@ -1,0 +1,1 @@
+In this File Sharing App You would be able to upload a file and a link will be generated below. Share it and the user will be able to download the file.

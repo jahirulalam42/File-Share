@@ -1,0 +1,115 @@
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(230, 230, 230); /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+/* Wrapper styles */
+.wrapper {
+  text-align: center;
+  padding: 5vw;
+  border-radius: 8px;
+  background-color: rgb(250, 250, 250); /* Light gray background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-out; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Heading styles */
+h1 {
+  font-size: calc(24px + 1vw); /* Responsive font size */
+  margin-bottom: 3vh; /* Responsive margin bottom */
+  color: #333; /* Dark gray text */
+  animation: slideInDown 0.5s ease-out; /* Slide-in animation */
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Paragraph styles */
+p {
+  font-size: calc(16px + 0.5vw); /* Responsive font size */
+  margin-bottom: 4vh; /* Responsive margin bottom */
+  color: #666; /* Medium gray text */
+  animation: slideInUp 0.5s ease-out; /* Slide-in animation */
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Upload button styles */
+button {
+  margin-bottom: 4vh; /* Responsive margin bottom */
+  padding: 2vh 4vw; /* Responsive padding */
+  font-size: calc(16px + 0.5vw); /* Responsive font size */
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(0, 123, 255); /* Blue button */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: bounceIn 0.5s ease-out; /* Bounce-in animation */
+}
+
+button:hover {
+  background-color: rgb(0, 86, 179); /* Darker blue on hover */
+}
+
+@keyframes bounceIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Input file styles */
+input[type="file"] {
+  display: none;
+}
+
+/* Result link styles */
+a {
+  display: block; /* Display as block element */
+  margin-top: 4vh; /* Responsive margin top */
+  font-size: calc(14px + 0.5vw); /* Responsive font size */
+  color: rgb(0, 123, 255); /* Blue link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  animation: fadeIn 0.5s ease-out; /* Fade-in animation */
+}
+
+a:hover {
+  color: rgb(0, 86, 179); /* Darker blue on hover */
+}
